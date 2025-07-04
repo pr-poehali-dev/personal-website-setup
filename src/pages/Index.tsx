@@ -10,8 +10,8 @@ const Index = () => {
 
       {/* Main Container - 50% width, centered */}
       <div className="flex justify-center px-4">
-        <div className="w-full max-w-4xl bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg shadow-2xl overflow-hidden">
-          <div className="flex min-h-[70vh]">
+        <div className="w-full max-w-4xl bg-gradient-to-r from-black to-pink-800 rounded-lg shadow-2xl overflow-hidden">
+          <div className="flex h-[calc(100vh-8rem)]">
             {/* Left Navigation - takes left portion */}
             <div className="w-1/3 bg-black/20 backdrop-blur-sm p-8">
               <nav className="space-y-6">
@@ -21,7 +21,7 @@ const Index = () => {
 
                 <a
                   href="#home"
-                  className="flex items-center space-x-3 text-white hover:text-pink-200 transition-colors duration-300 group"
+                  className="flex items-center space-x-3 text-white hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 hover:text-white transition-all duration-300 group p-3 rounded-lg"
                 >
                   <Icon
                     name="Home"
@@ -33,7 +33,7 @@ const Index = () => {
 
                 <a
                   href="#about"
-                  className="flex items-center space-x-3 text-white hover:text-pink-200 transition-colors duration-300 group"
+                  className="flex items-center space-x-3 text-white hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 hover:text-white transition-all duration-300 group p-3 rounded-lg"
                 >
                   <Icon
                     name="User"
@@ -45,7 +45,7 @@ const Index = () => {
 
                 <a
                   href="#blog"
-                  className="flex items-center space-x-3 text-white hover:text-pink-200 transition-colors duration-300 group"
+                  className="flex items-center space-x-3 text-white hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 hover:text-white transition-all duration-300 group p-3 rounded-lg"
                 >
                   <Icon
                     name="BookOpen"
@@ -57,7 +57,7 @@ const Index = () => {
 
                 <a
                   href="#art"
-                  className="flex items-center space-x-3 text-white hover:text-pink-200 transition-colors duration-300 group"
+                  className="flex items-center space-x-3 text-white hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 hover:text-white transition-all duration-300 group p-3 rounded-lg"
                 >
                   <Icon
                     name="Palette"
